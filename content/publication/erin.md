@@ -1,7 +1,7 @@
 +++
 title = "Understanding and predicting disease relationships through similarity fusion"
 date = 2018-08-30T00:00:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Erin Oerton", "Ian Roberts", "**Patrick Lewis**", "Tim Guilliams", "Andreas Bender"]

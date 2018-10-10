@@ -1,7 +1,7 @@
 +++
 title = "Interpretation of Natural Language Rules in Conversational Machine Reading"
 date = 2018-08-26T00:00:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Marzieh Saeidi", "Max Bartolo", "**Patrick Lewis**", "Sameer Singh", "Tim Rocktäschel", "Mike Sheldon", "Guillaume Bouchard", "Sebastian Riedel"]
