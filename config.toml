@@ -9,7 +9,7 @@
 baseurl = "/"
 
 # Title of your site
-title = "Academic"
+title = "Patrick Lewis"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -23,7 +23,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "patrickshlewis"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -51,12 +51,12 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith2"
-  role = "Professor of Artificial Intelligence"
+  name = "Patrick Lewis"
+  role = "Natural Language Processing PhD student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = 'UCL Machine Reading', url = "https://mr.cs.ucl.ac.uk/"},{ name = "Facebook AI research", url = "https://research.fb.com/category/facebook-ai-research/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -99,11 +99,11 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "patrick"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "patrick"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
   description = ""
@@ -131,11 +131,11 @@ enableGitInfo = false
   comment_count = true
 
   # Display next/previous section pager?
-  section_pager = false
+  section_pager = true
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -176,7 +176,7 @@ enableGitInfo = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["custom.css"]
   custom_js  = []
 
   # Publication types.
@@ -259,10 +259,10 @@ enableGitInfo = false
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  # [[params.social]]
-  #   icon = "cv"
-  #   icon_pack = "ai"
-  #   link = "files/cv.pdf"
+   [[params.social]]
+     icon = "cv"
+     icon_pack = "ai"
+     link = "files/cv.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -278,13 +278,13 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Blog"
+  url = "/post"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 3
 
 [[menu.main]]
@@ -293,21 +293,20 @@ enableGitInfo = false
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+    name = "CV"
+    url = "/files/cv.pdf"
+    weight = 7
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+    name = "Search"
+    url = "#search"
+    weight = 8
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+
+[[menu.main]]
+    name = "<img src='/img/front_page/uclmr_logo.png' style='height:30pt;border-radius: 5px;'>"
+    url = "https://mr.cs.ucl.ac.uk/"
+    weight = 8
 
 # Search.
 [params.search]
@@ -319,11 +318,11 @@ enableGitInfo = false
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
-  [params.search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
+  #[params.search.algolia]
+  #  app_id = ""
+  #  api_key = ""
+  #  index_name = ""
+  #  show_logo = false
 
 # Taxonomies.
 [taxonomies]
@@ -337,7 +336,7 @@ enableGitInfo = false
 
 # Configure the English version of the website.
 [languages.en]
-  languageCode = "en-us"
+  languageCode = "en-uk"
 
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
