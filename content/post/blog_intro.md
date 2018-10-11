@@ -18,7 +18,7 @@ I also hope that by sharing my thoughts and progress, it might be of some use to
 
 ## Why are you writing it?
 
-First and foremost, I'm hoping to use the blog as a organisational tool. The idea is that by working towards a post every couple of weeks, I'll be about to structure and organise my reserach more effectively, and be more efficient.
+First and foremost, I'm hoping to use the blog as a organisational tool. The idea is that by working towards a post every couple of weeks, I'll be able to structure and organise my reserach more effectively, and be more efficient.
 
 It will also give me something to focus on when there are inevitable difficult and slow periods in my PhD journey.
 
