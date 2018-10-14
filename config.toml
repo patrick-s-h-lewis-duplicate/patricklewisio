@@ -62,7 +62,7 @@ enableGitInfo = false
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "patrick.s.h.lewis@gmail.com"
+  email = "patrick [dot] s [dot] h [dot] lewis [at] gmail [dot] com"
   address = "Computer Science Department, University College London, Gower Street, London, WC1E 6BT"
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "+44 7771 392 432"
@@ -240,7 +240,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:patrick.s.h.lewis@gmail.com"
+    link = "/#contact"
 
   [[params.social]]
     icon = "twitter"
