@@ -5,7 +5,7 @@ draft: false
 tags: ['phd', 'QA']
 ---
 
-Welcome to my first *real* blog post. Read more about what it's all for [here](/post/blog_intro/). As a reminder, this is mainly a tool for me to organise my time and thoughts. These posts are not going to be infallible pieces of academic writing, (they're not papers and shouldn't be judged as as such!) but friendly constructive feedback is welcome! Also, I expect to ammend these pieces from time to time too.
+Welcome to my first *real* blog post. Read more about what it's all for [here](/post/blog_intro/). As a reminder, this is mainly a tool for me to organise my time and thoughts. These posts are not going to be infallible pieces of academic writing, (they're not papers and shouldn't be judged as such!) but friendly constructive feedback is welcome! Also, I expect to amend these pieces from time to time too.
 
 
 Over the last couple of weeks I’ve been thinking about how to make neural QA systems behave more consistently. Paraphrases are particularly interesting here because, an (ideal) paraphrase of a chunk of natural language should preserve the meaning of that language exactly, but can be written quite differently. Systems that make predictions about natural language should (ideally) be invariant to paraphrasing one or more of their inputs.
@@ -80,7 +80,7 @@ Another paper worth mentioning at this point is **Semantic parsing via paraphras
 We can see the “generate paraphrases, get answers and ensemble pattern” that we identified for Faber et al. 2013 in action in two recent works:  
 **Learning to Paraphrase for Question Answering** (Dong et al. 2017) fits our framework nicely:
 
-1. Generate paraphrases q_i from question q using back-translation. 
+1. Generate paraphrases \\(q_i\\) from question \\(q\\) using back-translation. 
 2. Each paraphrase is used to generate an answer using a neural question answering model, \\(p(a | q_i)\\)
 3. Each paraphrase is also scored using a neural paraphrase scoring system \\(p(q_i|q)\\). The answers are scored \\(p(a|q) = \sum\_{i} p(a|q_i) p(q_i | q )\\)
 
@@ -144,11 +144,11 @@ Summing up, we have identified 3 main techniques for question answering using pa
 3. Multi-task learning, either to encourage higher quality representation learning, or to directly improve the task at hand by introducing an inconsistency loss
 
 
-As alluded to earlier, many of the techniques have not been fully explored. Most have focussed on question paraphrasing due to the availability of large question paraphrase datasets. It would be possible, however to create adversarial documents using paraphrasing, similar to the work, **Adversarial Examples for Evaluating Reading Comprehension Systems (Jia and Liang 2017)** where adversarial sentences are added to squad contexts to confuse models.
+As alluded to earlier, many of the techniques have not been fully explored. Most have focused on question paraphrasing due to the availability of large question paraphrase datasets. It would be possible, however to create adversarial documents using paraphrasing, similar to the work, **Adversarial Examples for Evaluating Reading Comprehension Systems (Jia and Liang 2017)** where adversarial sentences are added to squad contexts to confuse models.
 
-For models that learn to rank candidate answers, answers could also be paraphrased, such that \\(f(q, a1) = f(q, a2)\\). This avenue appears not to have been explored much at all.
+For models that learn to rank candidate answers, answers could also be paraphrased, such that \\(f(q, a_1) = f(q, a_2)\\). This avenue appears not to have been explored much at all.
 
-It seems that current QA models fall short of encoding language in a paraphrase-resistant way (that is to say, they are over-reliant on learning simple patterns and word matching that is brittle to rephrasing). That Iyyer et al. 2018 observe their agent’s paraphrases to become less grammatical lends weight to this interpretation. Also, Adams et al. 2018 data augmentation by paraphrasing gives them meaningful performance boosts suggests that models could benefit from exposure to more diverse language and domains. Inspired by work we've reviewed here, I'm going to be experimenting with some new methods to improve the resiliance of machine readers. I hope to report back with progress here!
+It seems that current QA models fall short of encoding language in a paraphrase-resistant way (that is to say, they are over-reliant on learning simple patterns and word matching that is brittle to rephrasing). That Iyyer et al. 2018 observe their agent’s paraphrases to become less grammatical lends weight to this interpretation. Also, Adams et al. 2018 data augmentation by paraphrasing gives them meaningful performance boosts suggests that models could benefit from exposure to more diverse language and domains. Inspired by work we've reviewed here, I'm going to be experimenting with some new methods to improve the resilience of machine readers. I hope to report back with progress here!
 
 ## Citations:
 
