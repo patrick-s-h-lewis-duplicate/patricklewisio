@@ -26,22 +26,22 @@ preview = true
 I just got back from EMNLP in Brussels. We were presenting our dataset paper ShARC (a blog post about ShARC will be coming soon). The scale and breadth of the conference was really something, with so many smart people doing amazing things. It was also great to meet, network and talk research with all kinds of academics in NLP. We’ve got some exciting projects planned already, and I’m really just starting out. it was great to meet you all, lets stay in contact 😀
 
 
-I’ve attempted to preserve some of my experiences into a post. There was so much going on, and I’m already starting to forget things! So here’s a *monster* post on work that particularly resonated with me. I saw over over 60 orals and loads of posters, but that was still only the tip of the iceberg at a conference with 549 accepted papers. I’ll start off with some high level trends I see, and then drill down into a day-by-day account of highlights. 
+I’ve attempted to distill some of my experiences into a post. There was so much going on, and I’m already starting to forget things! So here’s a *monster* post on work that particularly resonated with me. I saw over over 60 orals and loads of posters, but that was still only the tip of the iceberg at a conference with 549 accepted papers. I’ll start off with some high level trends I see, and then drill down into a day-by-day account of highlights. 
 
 
 
 
 # Summary
 
-I think this year’s EMNLP had a few broad trends that should be noted. There was a broad focus on pushing more difficult tasks, and generally critical analysis of models, datasets and tasks. This is a good thing, we’re seeing less sensationalism and less “crazy architecture papers” that are poorly motivated.
+I think this year’s EMNLP had a few broad trends that should be noted. There was a broad focus on pushing more difficult tasks, and generally critical analysis of models, datasets and tasks. This is a good thing, we’re seeing less sensationalism and fewer “crazy architecture papers” that are poorly motivated.
 
 We’re also seeing the growth in what I’ll call “socially-responsible NLP”, from investigations on biases within the research community, to work on fact verification and fake news. In particular, I thought the FEVER workshop was a great success and would encourage people get involved.
 
-We’re also seeing growing interest in adversarial methods in NLP, from the odd GAN, discriminator networks, and generally the generation of natural language adversaries continues to grow. It’s still relatively small, but I think next year, adversaries will be everywhere.
+We’re also seeing growing interest in adversarial methods in NLP, from the odd GAN, discriminator networks, and generally the generation of natural language adversarial exaples continues to grow. It’s still relatively small, but I think next year, adversaries will be everywhere.
 
 We’re also seeing a wide adoption of contextual embeddings, particularly ELMo. Attendees were given ELMo stickers and plush elmos in a good PR move from AI2. ELMo was used as an input ablation in a fair number of works, and indeed led to pretty much universal gains in loads of different applications
 
-There were also a LOT of new datasets introduced. The datasets proposed were  for ever more specialised tasks (including our work ShARC) and often emphasised difficulty. The concept of a hardness filter (adversarial filtering and related techniques) seems to be catching on, to guarantee the dataset isn’t solvable by current methods. In theory this is great, I’m slightly concerned that subtle, model-based biases might be introduced into these datasets if we’re not careful.
+There were also a LOT of new datasets introduced. The datasets proposed were for ever more specialised tasks (including our work [ShARC](https://sharc-data.github.io/)) and often emphasised difficulty. The concept of a hardness filter (adversarial filtering and related techniques) seems to be catching on, to guarantee the dataset isn’t solvable by current methods. In theory this is great, I’m slightly concerned that subtle, model-based biases might be introduced into these datasets if we’re not careful.
 Related to the above, there are several works that take existing datasets and perform a close, critical analysis of what types of modelling are actually required to do well on the task, particularly in question answering. 
 
 We’re also seeing the continued momentum of common-sense and word-knowledge investigations, and some progress is being made, but there is still a long way to go here.
