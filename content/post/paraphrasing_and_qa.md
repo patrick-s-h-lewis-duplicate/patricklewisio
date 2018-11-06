@@ -2,7 +2,7 @@
 title: "Aspects of Paraphrasing for Adversarial training and Regularization in Question Answering"
 date: 2018-10-23T11:54:07+01:00
 draft: false
-tags: ['phd', 'QA']
+tags: ['PhD Blog', 'QA', 'Review']
 ---
 
 Welcome to my first *real* blog post. Read more about what it's all for [here](/post/blog_intro/). As a reminder, this is mainly a tool for me to organise my time and thoughts. These posts are not going to be infallible pieces of academic writing, (they're not papers and shouldn't be judged as such!) but friendly constructive feedback is welcome! Also, I expect to amend these pieces from time to time too.
