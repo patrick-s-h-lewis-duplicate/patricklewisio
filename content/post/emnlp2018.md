@@ -17,7 +17,7 @@ categories = []
 #   Markdown linking is allowed, e.g. `caption = "[Image credit](http://example.org)"`.
 # Set `preview` to `false` to disable the thumbnail in listings.
 [header]
-image = ""
+image = "posts/emnlp2018.jpg"
 caption = ""
 preview = true
 
@@ -50,7 +50,7 @@ Some other points are the re-introduction of syntax and linguistic structure to 
 
 There is more you could write here, and you may see very different trends to me (it’s a big conference, with 5 simultaneous tracks)
 
-What follows is a session-by-session account of work that I thought was particularly interesting or worth discussing. Papers that I thought were really great are highlighted green
+What follows is a session-by-session account of work that I thought was particularly interesting or worth discussing.
 
 
 ## Contents
