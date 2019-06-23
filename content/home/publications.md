@@ -12,7 +12,7 @@ subtitle = ""
 weight = 30
 
 # Number of publications to list.
-count = 100
+count = 2
 
 # List format.
 #   0 = Simple

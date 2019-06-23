@@ -1,6 +1,6 @@
 +++
 title = "Understanding and predicting disease relationships through similarity fusion"
-date = 2018-08-30T00:00:00
+date = 2018-08-25T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -30,7 +30,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
