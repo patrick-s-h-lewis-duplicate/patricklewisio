@@ -9,10 +9,10 @@ title = "Publications"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 30
+weight = 19
 
 # Number of publications to list.
-count = 2
+count = 3
 
 # List format.
 #   0 = Simple

@@ -13,7 +13,7 @@ title = "Patrick Lewis"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Patrick Lewis 2018"
+copyright = "&copy; Patrick Lewis 2019"
 
 theme = "academic"
 enableEmoji = true
@@ -56,7 +56,7 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = 'UCL Machine Reading', url = "https://mr.cs.ucl.ac.uk/"},{ name = "Facebook AI research", url = "https://research.fb.com/category/facebook-ai-research/" }]
+  organizations = [ { name = 'UCL NLP', url = "http://nlp.cs.ucl.ac.uk/"},{ name = "Facebook AI research", url = "https://research.fb.com/category/facebook-ai-research/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -316,8 +316,8 @@ enableGitInfo = false
 
 
 [[menu.main]]
-    name = "<img src='/img/front_page/uclmr_logo.png' style='height:30pt;border-radius: 5px;'>"
-    url = "https://mr.cs.ucl.ac.uk/"
+    name = "<img src='/img/front_page/uclnlp_logo.png' style='height:40pt;border-radius: 1px;'>"
+    url = "http://nlp.cs.ucl.ac.uk"
     weight = 8
 
 # Search.

@@ -15,4 +15,4 @@ image = ""
 caption = ""
 +++
 
-Every couple of weeks I hope to write a post about what I'm reading / researching / distracted by. My aim is to keep a record of what I'm up to as my work progresses, maintain momentum during slower periods and to engage the community in my research and swap ideas! Read more about what I'm hoping to achieve [here](/post/blog_intro/)
+Every once in a while I hope to write a post about what I'm reading / researching / distracted by. Blog upload frequency highly unpredictable!
