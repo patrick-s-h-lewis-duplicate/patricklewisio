@@ -37,9 +37,8 @@ weight = 5
 <br>
 ## Natural Language Patrick
 <br>
-I'm a London-based Natural Language Processing PhD student, splitting my time between FAIR and University College London.
+I'm a London-based Natural Language Processing PhD student, splitting my time between Facebook AI Research (FAIR) and University College London.
 
-I'm interested in how we can design neural natural language systems which encode and exploit annotations more effectively. 
+I'm interested in how we can design neural natural language systems which exploit human annotations much more effectively, particularly in question answering. 
 
-I also maintain a [blog](/post/) about my research. I hope you'll find it interesting and perhaps useful for your own work. Feedback and discussion is definitely welcome!
-
+I also occasionally blog about my research [here](/post/), and tweet [here](https://twitter.com/PSH_Lewis).
