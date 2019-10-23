@@ -42,9 +42,9 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1809.01494.pdf"
-url_preprint = "https://arxiv.org/abs/1809.01494"
-url_code = "#"
+url_pdf = "https://www.aclweb.org/anthology/D18-1233/"
+#url_preprint = "https://arxiv.org/abs/1809.01494"
+url_code = "https://sharc-data.github.io"
 url_dataset = "https://sharc-data.github.io/"
 #url_project = "#"
 # url_slides = "#"

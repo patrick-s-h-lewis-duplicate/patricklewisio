@@ -35,15 +35,15 @@ selected = true
 #   Simply enter your project's filename without extension.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
 #   Otherwise, set `projects = []`.
-projects = []
+projects = ["unsupervised_qa"]
 
 # Tags (optional).
 #   Set `tags = []` for no tags, or use the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1906.04980.pdf"
-url_preprint = "https://arxiv.org/abs/1906.04980"
+url_pdf = "https://www.aclweb.org/anthology/P19-1484/"
+#url_preprint = "https://arxiv.org/abs/1906.04980"
 url_code = "https://github.com/facebookresearch/UnsupervisedQA"
 url_dataset = "https://github.com/facebookresearch/UnsupervisedQA"
 #url_project = "https://github.com/facebookresearch/UnsupervisedQA"
