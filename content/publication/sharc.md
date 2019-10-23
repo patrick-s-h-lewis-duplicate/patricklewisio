@@ -49,7 +49,7 @@ url_dataset = "https://sharc-data.github.io/"
 #url_project = "#"
 # url_slides = "#"
 # url_video = "#"
-url_poster = "#"
+#url_poster = "#"
 # url_source = "#"
 
 # Custom links (optional).

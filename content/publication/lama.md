@@ -48,7 +48,7 @@ url_dataset = "https://github.com/facebookresearch/LAMA"
 # url_project = "https://github.com/facebookresearch/UnsupervisedQA"
 # url_slides = "#"
 # url_video = "#"
-url_poster = "#"
+#url_poster = "#"
 # url_source = "#"
 
 # Custom links (optional).
