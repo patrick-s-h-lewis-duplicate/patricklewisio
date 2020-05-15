@@ -41,8 +41,8 @@ projects = ["lama"]
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1909.01066.pdf"
-url_preprint = "https://arxiv.org/abs/1909.01066"
+url_pdf = "https://www.aclweb.org/anthology/D19-1250/"
+#url_preprint = "https://arxiv.org/abs/1909.01066"
 url_code = "https://github.com/facebookresearch/LAMA"
 url_dataset = "https://github.com/facebookresearch/LAMA"
 # url_project = "https://github.com/facebookresearch/UnsupervisedQA"
@@ -53,7 +53,7 @@ url_dataset = "https://github.com/facebookresearch/LAMA"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/UnsupervisedQA"}]
+#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/LAMA"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

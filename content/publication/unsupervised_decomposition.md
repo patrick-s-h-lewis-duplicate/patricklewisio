@@ -28,7 +28,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -45,7 +45,7 @@ tags = []
 url_pdf = "https://arxiv.org/pdf/2002.09758.pdf"
 url_preprint = "https://arxiv.org/abs/2002.09758"
 url_code = "https://github.com/facebookresearch/UnsupervisedDecomposition"
-url_dataset = "https://github.com/facebookresearch/UnsupervisedDecomposition"
+#url_dataset = "https://github.com/facebookresearch/UnsupervisedDecomposition"
 #url_project = "https://github.com/facebookresearch/UnsupervisedQA"
 # url_slides = "#"
 # url_video = "#"

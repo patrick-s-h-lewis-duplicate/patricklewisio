@@ -43,7 +43,7 @@ tags = []
 
 # Links (optional).
 url_pdf = "https://arxiv.org/pdf/1910.07475.pdf"
-url_preprint = "https://arxiv.org/abs/1910.07475"
+#url_preprint = "https://arxiv.org/abs/1910.07475"
 url_code = "https://github.com/facebookresearch/MLQA"
 url_dataset = "https://github.com/facebookresearch/MLQA"
 #url_project = "https://github.com/facebookresearch/UnsupervisedQA"
