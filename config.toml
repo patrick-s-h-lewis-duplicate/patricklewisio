@@ -257,10 +257,10 @@ enableGitInfo = false
     icon_pack = "ai"
     link = "https://scholar.google.co.uk/citations?user=JN7Zg-kAAAAJ"
 
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fab"
-    link = "//github.com/patrick-s-h-lewis"
+  #[[params.social]]
+  #  icon = "github"
+  #  icon_pack = "fab"
+  #  link = "//github.com/patrick-s-h-lewis"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -275,6 +275,10 @@ enableGitInfo = false
      icon_pack = "ai"
      link = "https://orcid.org/0000-0002-2192-9543"
 
+   [[params.social]]
+     icon = "semantic-scholar"
+     icon_pack = "ai"
+     link = "https://www.semanticscholar.org/author/Patrick-Lewis/145222654"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
