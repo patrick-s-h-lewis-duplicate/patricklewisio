@@ -18,8 +18,8 @@ authors = ["Ethan Perez", "**Patrick Lewis**", "Wen-tau Yih", " Kyunghyun Cho", 
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "ArXiv Preprint"
-publication_short = "ArXiv Preprint"
+publication = "EMNLP 2020"
+publication_short = "EMNLP 2020"
 
 # Abstract and optional shortened version.
 abstract = "We aim to improve question answering (QA) by decomposing hard questions into easier sub-questions that existing QA systems can answer. Since collecting labeled decompositions is cumbersome, we propose an unsupervised approach to produce sub-questions. Specifically, by leveraging >10M questions from Common Crawl, we learn to map from the distribution of multi-hop questions to the distribution of single-hop sub-questions. We answer sub-questions with an off-the-shelf QA model and incorporate the resulting answers in a downstream, multi-hop QA system. On a popular multi-hop QA dataset, HotpotQA, we show large improvements over a strong baseline, especially on adversarial and out-of-domain questions. Our method is generally applicable and automatically learns to decompose questions of different classes, while matching the performance of decomposition methods that rely heavily on hand-engineering and annotation."

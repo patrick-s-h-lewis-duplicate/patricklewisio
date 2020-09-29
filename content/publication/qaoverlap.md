@@ -41,7 +41,7 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/abs/2008.02637.abs"
+url_pdf = "https://arxiv.org/abs/2008.02637"
 url_preprint = "https://arxiv.org/abs/2008.02637"
 #url_code = "https://github.com/facebookresearch/dpr"
 url_dataset = "https://github.com/facebookresearch/qa-overlap"
