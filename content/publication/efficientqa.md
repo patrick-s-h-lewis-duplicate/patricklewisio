@@ -4,8 +4,7 @@ date = 2021-01-01T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["**Patrick Lewis**", "Yuxiang Wu", "Linqing Liu", "Pasquale Minervini", "Heinrich Küttler", "Aleksandra Piktus", "Pontus Stenetorp", "Sebastian Riedel"]
-# Publication type.
+authors = ["Sewon Min et al."]# Publication type.
 # Legend:
 # 0 = Uncategorized
 # 1 = Conference paper
