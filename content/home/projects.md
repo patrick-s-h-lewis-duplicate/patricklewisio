@@ -43,5 +43,5 @@ filter_default = 0
 
 +++
 
-Here are some great projects I'm involved with:
+Here are some projects I'm involved with:
 

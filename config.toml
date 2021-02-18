@@ -321,7 +321,7 @@ enableGitInfo = false
 
 [[menu.main]]
     name = "<img src='/img/front_page/uclnlp_logo.png' style='height:40pt;border-radius: 1px;'>"
-    url = "http://nlp.cs.ucl.ac.uk"
+    url = "https://nlp.cs.ucl.ac.uk"
     weight = 8
 
 # Search.
