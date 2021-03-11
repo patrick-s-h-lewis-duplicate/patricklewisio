@@ -39,6 +39,6 @@ weight = 5
 <br>
 I'm a London-based Natural Language Processing PhD student, splitting my time between Facebook AI Research (FAIR) and University College London.
 
-I'm interested in how we can design neural natural language systems which exploit human annotations much more effectively, particularly in question answering. 
+I'm interested in how to represent, store and access knowledge and building more powerful, efficient and robust models for knowledge-intensive NLP tasks such as question answering.
 
 I also occasionally blog about my research [here](/post/), and tweet [here](https://twitter.com/PSH_Lewis).
