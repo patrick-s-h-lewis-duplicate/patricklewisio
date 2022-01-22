@@ -52,11 +52,11 @@ enableGitInfo = false
 
   # Your details.
   name = "Patrick Lewis"
-  role = "Natural Language Processing PhD student"
+  role = "Natural Language Processing Research Scientist"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = 'UCL NLP', url = "http://nlp.cs.ucl.ac.uk/"},{ name = "Facebook AI research", url = "https://research.fb.com/category/facebook-ai-research/" }]
+  organizations = [ { name = 'UCL NLP', url = "http://nlp.cs.ucl.ac.uk/"},{ name = "Meta AI Research", url = "https://research.fb.com/category/facebook-ai-research/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -293,10 +293,10 @@ enableGitInfo = false
   url = "#about"
   weight = 1
 
-[[menu.main]]
-  name = "Blog"
-  url = "/post"
-  weight = 2
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/post"
+#  weight = 2
 
 [[menu.main]]
   name = "Publications"

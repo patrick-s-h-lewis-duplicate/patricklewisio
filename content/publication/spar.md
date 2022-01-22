@@ -1,10 +1,10 @@
 +++
-title = "Answering Complex Open-Domain Questions with Multi-Hop Dense Retrieval"
-date = 2020-09-27T00:00:00
+title = "Salient Phrase Aware Dense Retrieval: Can a Dense Retriever Imitate a Sparse One?"
+date = 2021-10-13T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Wenhan Xiong", "Xiang Lorraine Li", "Srini Iyer", "Jingfei Du", "**Patrick Lewis**", "William Yang Wang", "Yashar Mehdad", "Wen-tau Yih", "Sebastian Riedel", "Douwe Kiela", "Barlas Oğuz"]
+authors = ["Xilun Chen", "Kushal Lakhotia", "Barlas Oğuz", "Anchit Gupta", "**Patrick Lewis**", "Stan Peshterliev", "Yashar Mehdad", "Sonal Gupta", "Wen-tau Yih"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
@@ -17,11 +17,11 @@ authors = ["Wenhan Xiong", "Xiang Lorraine Li", "Srini Iyer", "Jingfei Du", "**P
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "ICLR"
-publication_short = "ICLR"
+publication = "Arxiv Preprint"
+publication_short = "Arxiv Preprint"
 
 # Abstract and optional shortened version.
-abstract = "We propose a simple and efficient multi-hop dense retrieval approach for answering complex open-domain questions, which achieves state-of-the-art performance on two multi-hop datasets, HotpotQA and multi-evidence FEVER. Contrary to previous work, our method does not require access to any corpus-specific information, such as inter-document hyperlinks or human-annotated entity markers, and can be applied to any unstructured text corpus. Our system also yields a much better efficiency-accuracy trade-off, matching the best published accuracy on HotpotQA while being 10 times faster at inference time."
+abstract = "Despite their recent popularity and well known advantages, dense retrievers still lag behind sparse methods such as BM25 in their ability to reliably match salient phrases and rare entities in the query. It has been argued that this is an inherent limitation of dense models. We disprove this claim by introducing the Salient Phrase Aware Retriever (SPAR), a dense retriever with the lexical matching capacity of a sparse model. In particular, we show that a dense retriever, lambda, can be trained to imitate a sparse one, and SPAR is built by augmenting a standard dense retriever with lambda. When evaluated on five open-domain question answering datasets and the MS MARCO passage retrieval task, SPAR sets a new state of the art for dense and sparse retrievers and can match or exceed the performance of more complicated dense-sparse hybrid systems."
 abstract_short = "" 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -41,11 +41,11 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2009.12756.pdf"
-url_preprint = "https://arxiv.org/abs/2009.12756"
+url_pdf = "https://arxiv.org/pdf/2110.06918.pdf"
+url_preprint = "https://arxiv.org/abs/2110.06918"
 #url_code = "https://github.com/facebookresearch/dpr"
-url_dataset = ""
-url_project = ""
+#url_dataset = "https://github.com/facebookresearch/PAQ"
+#url_project = "https://github.com/facebookresearch/PAQ"
 # url_slides = "#"
 # url_video = "#"
 #url_poster = "#"
@@ -53,7 +53,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# url_custom = [{name = "Website", url = "https://github.com/facebookresearch/qa-overlap"}]
+#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/PAQ"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

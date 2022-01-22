@@ -1,11 +1,10 @@
 +++
-title = "Dense Passage Retrieval for Open-Domain Question Answering"
-date = 2020-04-02T00:00:00
+title = "Boosted Dense Retriever"
+date = 2021-12-14T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Vladimir Karpukhin", "Barlas Oğuz", "Sewon Min", "**Patrick Lewis**", "Ledell Wu", "Sergey Edunov", "Danqi Chen", "Wen-tau Yih"]
-
+authors = ["**Patrick Lewis**", "Barlas Oğuz", "Wenhan Xiong", "Fabio Petroni", "Wen-tau Yih", "Sebastian Riedel"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
@@ -18,11 +17,11 @@ authors = ["Vladimir Karpukhin", "Barlas Oğuz", "Sewon Min", "**Patrick Lewis**
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "EMNLP 2020"
-publication_short = "EMNLP 2020"
+publication = "Arxiv Preprint"
+publication_short = "Arxiv Preprint"
 
 # Abstract and optional shortened version.
-abstract = "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system largely by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks."
+abstract = "We propose DrBoost, a dense retrieval ensemble inspired by boosting. DrBoost is trained in stages: each component model is learned sequentially and specialized by focusing only on retrieval mistakes made by the current ensemble. The final representation is the concatenation of the output vectors of all the component models, making it a drop-in replacement for standard dense retrievers at test time. DrBoost enjoys several advantages compared to standard dense retrieval models. It produces representations which are 4x more compact, while delivering comparable retrieval results. It also performs surprisingly well under approximate search with coarse quantization, reducing latency and bandwidth needs by another 4x. In practice, this can make the difference between serving indices from disk versus from memory, paving the way for much cheaper deployments."
 abstract_short = "" 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -42,11 +41,11 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2004.04906.pdf"
-url_preprint = "https://arxiv.org/abs/2004.04906"
-url_code = "https://github.com/facebookresearch/dpr"
-#url_dataset = "https://github.com/facebookresearch/MLQA"
-#url_project = "https://github.com/facebookresearch/UnsupervisedQA"
+url_pdf = "https://arxiv.org/pdf/2112.07771.pdf"
+url_preprint = "https://arxiv.org/abs/2112.07771"
+#url_code = "https://github.com/facebookresearch/dpr"
+#url_dataset = "https://github.com/facebookresearch/PAQ"
+#url_project = "https://github.com/facebookresearch/PAQ"
 # url_slides = "#"
 # url_video = "#"
 #url_poster = "#"
@@ -54,7 +53,7 @@ url_code = "https://github.com/facebookresearch/dpr"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/dpr"}]
+#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/PAQ"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

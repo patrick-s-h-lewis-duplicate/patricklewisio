@@ -1,11 +1,10 @@
 +++
-title = "Dense Passage Retrieval for Open-Domain Question Answering"
-date = 2020-04-02T00:00:00
+title = "A Few More Examples May Be Worth Billions of Parameters"
+date = 2021-10-08T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Vladimir Karpukhin", "Barlas Oğuz", "Sewon Min", "**Patrick Lewis**", "Ledell Wu", "Sergey Edunov", "Danqi Chen", "Wen-tau Yih"]
-
+authors = ["Yuval Kirstain", "**Patrick Lewis**","Sebastian Riedel", "Omer Levy"]
 # Publication type.
 # Legend:
 # 0 = Uncategorized
@@ -18,11 +17,11 @@ authors = ["Vladimir Karpukhin", "Barlas Oğuz", "Sewon Min", "**Patrick Lewis**
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "EMNLP 2020"
-publication_short = "EMNLP 2020"
+publication = "Arxiv Preprint"
+publication_short = "Arxiv Preprint"
 
 # Abstract and optional shortened version.
-abstract = "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system largely by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks."
+abstract = "We investigate the dynamics of increasing the number of model parameters versus the number of labeled examples across a wide variety of tasks. Our exploration reveals that while scaling parameters consistently yields performance improvements, the contribution of additional examples highly depends on the task's format. Specifically, in open question answering tasks, enlarging the training set does not improve performance. In contrast, classification, extractive question answering, and multiple choice tasks benefit so much from additional examples that collecting a few hundred examples is often 'worth' billions of parameters. We hypothesize that unlike open question answering, which involves recalling specific information, solving strategies for tasks with a more restricted output space transfer across examples, and can therefore be learned with small amounts of labeled data."
 abstract_short = "" 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -42,11 +41,11 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2004.04906.pdf"
-url_preprint = "https://arxiv.org/abs/2004.04906"
-url_code = "https://github.com/facebookresearch/dpr"
-#url_dataset = "https://github.com/facebookresearch/MLQA"
-#url_project = "https://github.com/facebookresearch/UnsupervisedQA"
+url_pdf = "https://arxiv.org/pdf/2110.04374.pdf"
+url_preprint = "https://arxiv.org/abs/2110.04374"
+#url_code = "https://github.com/facebookresearch/dpr"
+#url_dataset = "https://github.com/facebookresearch/PAQ"
+#url_project = "https://github.com/facebookresearch/PAQ"
 # url_slides = "#"
 # url_video = "#"
 #url_poster = "#"
@@ -54,7 +53,7 @@ url_code = "https://github.com/facebookresearch/dpr"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/dpr"}]
+#url_custom = [{name = "Website", url = "https://github.com/facebookresearch/PAQ"}]
 
 # Digital Object Identifier (DOI)
 doi = ""

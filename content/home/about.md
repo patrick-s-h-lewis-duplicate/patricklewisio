@@ -37,8 +37,9 @@ weight = 5
 <br>
 ## Natural Language Patrick
 <br>
-I'm a London-based Natural Language Processing PhD student, splitting my time between Facebook AI Research (FAIR) and University College London.
+I'm a London-based AI and Natural Language Processing Research Scientist, currently working at Meta AI Research.
+Before this, I was a PhD student, splitting my time between Facebook AI Research (FAIR) and University College London.
 
-I'm interested in how to represent, store and access knowledge and building more powerful, efficient and robust models for knowledge-intensive NLP tasks such as question answering.
+I'm interested in how to represent, store and access knowledge and building more powerful, efficient and robust models for knowledge-intensive NLP tasks such as Question Answering and Fact Checking.
 
-I also occasionally blog about my research [here](/post/), and tweet [here](https://twitter.com/PSH_Lewis).
+I also occasionally tweet [here](https://twitter.com/PSH_Lewis).
