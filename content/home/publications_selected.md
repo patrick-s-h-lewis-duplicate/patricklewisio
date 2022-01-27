@@ -7,7 +7,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Selected Publications"
-subtitle = "[All Publications >>](http://localhost:1313/publication/)"
+subtitle = "[All Publications >>](publication/)"
 
 # Order that this section will appear in.
 weight = 10
