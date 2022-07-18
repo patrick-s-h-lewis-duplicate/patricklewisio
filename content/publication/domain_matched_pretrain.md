@@ -1,6 +1,6 @@
 +++
 title = "Domain-matched Pre-training Tasks for Dense Retrieval"
-date = 2021-07-28T00:00:00
+date = 2022-07-10T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -18,8 +18,8 @@ authors = ["Barlas Oğuz", "Kushal Lakhotia","Anchit Gupta","**Patrick Lewis**",
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Arxiv Preprint"
-publication_short = "Arxiv Preprint"
+publication = "Findings of NAACL 2022"
+publication_short = "Findings of NAACL 2022"
 
 # Abstract and optional shortened version.
 abstract = "Pre-training on larger datasets with ever increasing model size is now a proven recipe for increased performance across almost all NLP tasks. A notable exception is information retrieval, where additional pre-training has so far failed to produce convincing results. We show that, with the right pre-training setup, this barrier can be overcome. We demonstrate this by pre-training large bi-encoder models on 1) a recently released set of 65 million synthetically generated questions, and 2) 200 million post-comment pairs from a preexisting dataset of Reddit conversations made available by https://pushshift.io/. We evaluate on a set of information retrieval and dialogue retrieval benchmarks, showing substantial improvements over supervised baselines."
@@ -42,8 +42,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2107.13602.pdf"
-url_preprint = "https://arxiv.org/abs/2107.13602"
+url_pdf = "https://aclanthology.org/2022.findings-naacl.114/"
+#url_preprint = "https://arxiv.org/abs/2107.13602"
 #url_code = "https://github.com/facebookresearch/dpr"
 #url_dataset = "https://github.com/facebookresearch/PAQ"
 #url_project = "https://github.com/facebookresearch/PAQ"

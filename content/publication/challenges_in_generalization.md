@@ -1,6 +1,6 @@
 +++
 title = "Challenges in Generalization in Open Domain Question Answering"
-date = 2021-09-02T00:00:00
+date = 2022-07-10T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -17,8 +17,8 @@ authors = ["Linqing Liu", "**Patrick Lewis**","Sebastian Riedel", "Pontus Stenet
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Arxiv Preprint"
-publication_short = "Arxiv Preprint"
+publication = "Findings of NAACL 2022"
+publication_short = "Findings of NAACL 2022"
 
 # Abstract and optional shortened version.
 abstract = "Recent work on Open Domain Question Answering has shown that there is a large discrepancy in model performance between novel test questions and those that largely overlap with training questions. However, it is as of yet unclear which aspects of novel questions that make them challenging. Drawing upon studies on systematic generalization, we introduce and annotate questions according to three categories that measure different levels and kinds of generalization: training set overlap, compositional generalization (comp-gen), and novel entity generalization (novel-entity). When evaluating six popular parametric and non-parametric models, we find that for the established Natural Questions and TriviaQA datasets, even the strongest model performance for comp-gen/novel-entity is 13.1/5.4% and 9.6/1.5% lower compared to that for the full test set -- indicating the challenge posed by these types of questions. Furthermore, we show that whilst non-parametric models can handle questions containing novel entities, they struggle with those requiring compositional generalization. Through thorough analysis we find that key question difficulty factors are: cascading errors from the retrieval component, frequency of question pattern, and frequency of the entity."
@@ -41,8 +41,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2109.01156.pdf"
-url_preprint = "https://arxiv.org/abs/2109.01156"
+url_pdf = "https://aclanthology.org/2022.findings-naacl.155/"
+#url_preprint = "https://arxiv.org/abs/2109.01156"
 #url_code = "https://github.com/facebookresearch/dpr"
 #url_dataset = "https://github.com/facebookresearch/PAQ"
 #url_project = "https://github.com/facebookresearch/PAQ"

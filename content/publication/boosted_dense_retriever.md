@@ -1,6 +1,6 @@
 +++
 title = "Boosted Dense Retriever"
-date = 2021-12-14T00:00:00
+date = 2022-07-10T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -17,8 +17,8 @@ authors = ["**Patrick Lewis**", "Barlas Oğuz", "Wenhan Xiong", "Fabio Petroni",
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Arxiv Preprint"
-publication_short = "Arxiv Preprint"
+publication = "NAACL 2022"
+publication_short = "NAACL 2022"
 
 # Abstract and optional shortened version.
 abstract = "We propose DrBoost, a dense retrieval ensemble inspired by boosting. DrBoost is trained in stages: each component model is learned sequentially and specialized by focusing only on retrieval mistakes made by the current ensemble. The final representation is the concatenation of the output vectors of all the component models, making it a drop-in replacement for standard dense retrievers at test time. DrBoost enjoys several advantages compared to standard dense retrieval models. It produces representations which are 4x more compact, while delivering comparable retrieval results. It also performs surprisingly well under approximate search with coarse quantization, reducing latency and bandwidth needs by another 4x. In practice, this can make the difference between serving indices from disk versus from memory, paving the way for much cheaper deployments."
@@ -41,8 +41,8 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/2112.07771.pdf"
-url_preprint = "https://arxiv.org/abs/2112.07771"
+url_pdf = "https://aclanthology.org/2022.naacl-main.226/"
+#url_preprint = "https://arxiv.org/abs/2112.07771"
 #url_code = "https://github.com/facebookresearch/dpr"
 #url_dataset = "https://github.com/facebookresearch/PAQ"
 #url_project = "https://github.com/facebookresearch/PAQ"
