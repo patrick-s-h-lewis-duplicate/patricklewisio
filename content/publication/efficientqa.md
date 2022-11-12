@@ -16,8 +16,8 @@ authors = ["Sewon Min et al."]# Publication type.
 publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "Arxiv Preprint"
-publication_short = "Arxiv Preprint"
+publication = "PMLR 2021"
+publication_short = "PMLR 2021"
 
 # Abstract and optional shortened version.
 abstract = "We review the EfficientQA competition from NeurIPS 2020. The competition focused on open-domain question answering (QA), where systems take natural language questions as input and return natural language answers. The aim of the competition was to build systems that can predict correct answers while also satisfying strict on-disk memory budgets. These memory budgets were designed to encourage contestants to explore the trade-off between storing large, redundant, retrieval corpora or the parameters of large learned models. In this report, we describe the motivation and organization of the competition, review the best submissions, and analyze system predictions to inform a discussion of evaluation for open-domain QA."

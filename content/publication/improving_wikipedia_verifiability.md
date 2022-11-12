@@ -5,7 +5,7 @@ draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = [
-"Fabio Petroni", "Samuel Broscheit", "Aleksandra Piktus", "Patrick Lewis", "Gautier Izacard", "Lucas Hosseini", "Jane Dwivedi-Yu", "Maria Lomeli", "Timo Schick", "Pierre-Emmanuel Mazaré", "Armand Joulin", "Edouard Grave", "Sebastian Riedel"
+"Fabio Petroni", "Samuel Broscheit", "Aleksandra Piktus", "**Patrick Lewis**", "Gautier Izacard", "Lucas Hosseini", "Jane Dwivedi-Yu", "Maria Lomeli", "Timo Schick", "Pierre-Emmanuel Mazaré", "Armand Joulin", "Edouard Grave", "Sebastian Riedel"
 ]
 # Publication type.
 # Legend:

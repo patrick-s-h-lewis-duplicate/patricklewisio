@@ -40,6 +40,9 @@ weight = 5
 I'm a London-based AI and Natural Language Processing Research Scientist, currently working at Meta AI Research.
 Before this, I was a PhD student, splitting my time between Facebook AI Research (FAIR) and University College London.
 
-I'm interested in how to represent, store and access knowledge and building more powerful, efficient and robust models for knowledge-intensive NLP tasks such as Question Answering and Fact Checking.
+I work at the intersection of information retrieval techniques (IR) and large language models (LLMs), and have done a lot of work on <em>Retrieval-Augmented Language Models</em>.
+
+I'm interested in how to represent, store and retrieve <em>knowledge</em> for use in large language models.
+My work focuses on building more powerful, efficient, robust and update-able models that can perform well on a wide range of NLP tasks, but also excel on knowledge-intensive NLP tasks such as Question Answering and Fact Checking.
 
 I also occasionally tweet [here](https://twitter.com/PSH_Lewis).
