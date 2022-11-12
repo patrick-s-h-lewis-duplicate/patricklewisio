@@ -1,6 +1,6 @@
 +++
 title = "Atlas: Few-shot Learning with Retrieval-Augmented Language Models"
-date = 2022-02-15T00:00:00
+date = 2022-08-05T00:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
