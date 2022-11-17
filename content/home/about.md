@@ -37,8 +37,9 @@ weight = 5
 <br>
 ## Natural Language Patrick
 <br>
-I'm a London-based AI and Natural Language Processing Research Scientist, currently working at Meta AI Research.
-Before this, I was a PhD student, splitting my time between Facebook AI Research (FAIR) and University College London.
+I'm a London-based AI and Natural Language Processing Research Scientist, working at [co:here](https://cohere.ai/).
+Before this, I was a research scientist at the Fundamental AI Research Lab (FAIR) at Meta AI.
+I completed my PhD working with Sebastian Riedel and Pontus Stenetorp, splitting my time between FAIR nd University College London.
 
 I work at the intersection of information retrieval techniques (IR) and large language models (LLMs), and have done a lot of work on <em>Retrieval-Augmented Language Models</em>.
 

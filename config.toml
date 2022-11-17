@@ -56,7 +56,7 @@ enableGitInfo = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = 'UCL NLP', url = "http://nlp.cs.ucl.ac.uk/"},{ name = "Meta AI Research", url = "https://research.fb.com/category/facebook-ai-research/" }]
+  organizations = [ { name = 'co:here', url = "https://cohere.ai/"}, { name = 'UCL NLP', url = "http://nlp.cs.ucl.ac.uk/"},{ name = "Meta AI Research", url = "https://research.fb.com/category/facebook-ai-research/" }]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
