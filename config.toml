@@ -248,6 +248,11 @@ enableGitInfo = false
     link = "//twitter.com/PSH_Lewis"
 
   [[params.social]]
+    icon = "mastodon"
+    icon_pack = "fab"
+    link = "https://sigmoid.social/@patrick_lewis"
+
+  [[params.social]]
     icon = "linkedin"
     icon_pack = "fab"
     link = "https://www.linkedin.com/in/patrick-s-h-lewis/"
@@ -270,15 +275,17 @@ enableGitInfo = false
   #   link = "files/cv.pdf"
 
 
-   [[params.social]]
-     icon = "orcid"
-     icon_pack = "ai"
-     link = "https://orcid.org/0000-0002-2192-9543"
+   #[[params.social]]
+   #  icon = "orcid"
+   #  icon_pack = "ai"
+   #  link = "https://orcid.org/0000-0002-2192-9543"
 
    [[params.social]]
      icon = "semantic-scholar"
      icon_pack = "ai"
      link = "https://www.semanticscholar.org/author/Patrick-Lewis/145222654"
+
+
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
